@@ -9,7 +9,7 @@ function fetchBreeds() {
         return response.data;
     })
     .catch(error => {
-        throw new error('Oops! Something went wrong! Try reloading the page!');
+        throw new error('Oops! Something went wrong!');
     })
 };
 
@@ -20,7 +20,7 @@ function fetchCatByBreed(breedId) {
         return response.data;
     })
     .catch(error => {
-        throw new error('Oops! Something went wrong! Try reloading the page!');
+        throw new error('Oops! Something went wrong!');
     })
 }
 
